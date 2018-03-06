@@ -1,6 +1,6 @@
 # Time-Calculator
 A simple calculator that calculator date and time
-![alt text](https://raw.githubusercontent.com/H-W-Chang/Time-Calculator/master/time-calculator.jpg)
+![alt text](https://raw.githubusercontent.com/H-W-Chang/TimeCalculator/master/time-calculator.jpg)
 
 First row is the default time to be added.<br />
 Each value of the first row is limited as follow:<br />
