@@ -14,20 +14,6 @@ DateAndTime::DateAndTime(Decimal y, Decimal m, Decimal d,
 	second = Decimal::ToInt32(s);
 }
 
-//int DateAndTime::stringToInt(String ^ str) {
-//	int num;
-//	if (str == "")
-//		num = 0;
-//	num = System::Convert::ToInt32(str);
-//	return num;
-//}
-//
-//String^ DateAndTime::intToString(int num) {
-//	String ^ str;
-//	str = System::Convert::ToString(num);
-//	return str;
-//}
-
 int DateAndTime::calculateTime(int h, int m, int s)
 {
 	int temp;

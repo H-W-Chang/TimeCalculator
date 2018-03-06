@@ -480,49 +480,6 @@ namespace TimeCalculator {
 	}
 
 	private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
-		/*	time_t timer;
-			struct tm *t;
-			time(&timer);
-			t = localtime(&timer);
-			if (textBox1->Text == "")
-				t->tm_year = 0;
-			else {
-				if (stringToInt(textBox1->Text)<=1970)
-					t->tm_year = stringToInt(textBox1->Text) + 1970;
-				t->tm_year = stringToInt(textBox1->Text) - 1900;
-
-			}
-			if (textBox2->Text == "")
-				t->tm_mon = 0;
-			else
-				t->tm_mon = stringToInt(textBox2->Text)-1;
-			if (textBox3->Text == "")
-				t->tm_mday = 0;
-			else
-				t->tm_mday = stringToInt(textBox3->Text);
-			if (textBox4->Text == "")
-				t->tm_hour = 0;
-			else
-				t->tm_hour = stringToInt(textBox4->Text);
-			if (textBox5->Text == "")
-				t->tm_min = 0;
-			else
-				t->tm_min = stringToInt(textBox5->Text);
-			if (textBox6->Text == "")
-				t->tm_sec = 0;
-			else
-				t->tm_sec = stringToInt(textBox6->Text);
-
-
-			timer = mktime(t);
-			timer = timer + 156235400;
-			t = localtime(&timer);
-			textBox13->Text = intToString(t->tm_year);
-			textBox14->Text = intToString(t->tm_mon);
-			textBox15->Text = intToString(t->tm_mday);
-			textBox16->Text = intToString(t->tm_hour);
-			textBox17->Text = intToString(t->tm_min);
-			textBox18->Text = intToString(t->tm_sec);*/
 		DateAndTime date(numericUpDown1->Value, numericUpDown2->Value, numericUpDown3->Value,
 			numericUpDown4->Value, numericUpDown5->Value, numericUpDown6->Value);
 		int remainDay = date.calculateTime(Decimal::ToInt32(numericUpDown10->Value),
